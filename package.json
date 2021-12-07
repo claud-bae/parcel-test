@@ -1,0 +1,32 @@
+{
+  "name": "parcel-bundler",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel index.html --port 8080",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
+    "@parcel/transformer-sass": "^2.0.1",
+    "autoprefixer": "^9.8.8",
+    "cssnano": "^5.0.12",
+    "node-sass": "^7.0.0",
+    "parcel": "^2.0.1",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "postcss": "^8.4.4",
+    "sass": "^1.44.0"
+  },
+  "staticFiles": {
+    "staticPath": "static"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
